@@ -1,0 +1,8 @@
+[core]
+    remote = san
+['remote "remote"']
+    url = s3://dvctemp/temp/
+['remote "pran"']
+    url = https://dvctemp.s3.amazonaws.com/temp/
+['remote "san"']
+    url = ../tmp
